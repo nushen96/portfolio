@@ -178,6 +178,7 @@ header .show-more {
   background: #fff;
   color: #000;
   padding: 30px;
+  min-height: 366px;
   border-radius: 1rem;
   -webkit-border-radius: 1rem;
   -moz-border-radius: 1rem;
@@ -185,16 +186,16 @@ header .show-more {
   -o-border-radius: 1rem;
 }
 
-.skill-card .skill-title-row .skill-title {
-  float: left;
+.skill-card .skill-title {
+  margin-top: 10px;
 }
 
-.skill-card .skill-title-row .skill-level {
+.skill-card .skill-level {
   float: right;
   font-size: 50%;
 }
 
-.skill-card .skill-title-row .skill-level .filled-stars {
+.skill-card .skill-level .filled-stars {
   color: #00af43;
 }
 
@@ -205,8 +206,8 @@ header .show-more {
 
 .skill-card .skill-description {
   font-size: 90%;
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   text-align: justify;
   text-justify: newspaper;
 }
