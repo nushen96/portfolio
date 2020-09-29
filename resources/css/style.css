@@ -168,13 +168,6 @@ header .show-more {
 /* ------------------------------- SKILLS -------------------------------*/
 /* ----------------------------------------------------------------------*/
 .skill-card {
-  /*background: rgb(66, 65, 78);
-  background: linear-gradient(
-    90deg,
-    rgba(66, 65, 78, 1) 0%,
-    rgba(113, 113, 121, 1) 35%,
-    rgba(135, 144, 145, 1) 100%
-  );*/
   background: #fff;
   color: #000;
   padding: 30px;
@@ -215,4 +208,67 @@ header .show-more {
 .skill-card .skill-techs {
   font-size: 70%;
   color: #7c7c7c;
+}
+
+/* ----------------------------------------------------------------------*/
+/* ----------------------------- PORTFOLIO ------------------------------*/
+/* ----------------------------------------------------------------------*/
+.projects-subtitle {
+  margin-top: 10px;
+}
+
+.projects-grid {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.project-card {
+  background: #fff;
+  color: #000;
+  padding: 0;
+  height: 366px;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+.project-image {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+.project-image img {
+  width: 100%;
+  opacity: 0.7;
+  height: 100%;
+  transform: scale(1.15);
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  -o-transform: scale(1.15);
+  transition: transform 0.5s, opacity 0.5s;
+  -webkit-transition: transform 0.5s, opacity 0.5s;
+  -moz-transition: transform 0.5s, opacity 0.5s;
+  -ms-transition: transform 0.5s, opacity 0.5s;
+  -o-transition: transform 0.5s, opacity 0.5s;
+}
+
+.project-image img:hover {
+  transform: scale(1.03);
+  -webkit-transform: scale(1.03);
+  -moz-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  -o-transform: scale(1.03);
+  opacity: 1;
 }
