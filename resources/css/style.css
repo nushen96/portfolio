@@ -272,3 +272,24 @@ header .show-more {
   -o-transform: scale(1.03);
   opacity: 1;
 }
+
+/* ----------------------------------------------------------------------*/
+/* ------------------------------- SOCIAL -------------------------------*/
+/* ----------------------------------------------------------------------*/
+.section-social {
+  padding: 40px 80px;
+}
+
+.social-links-container {
+  text-align: center;
+}
+
+.social-links-list {
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+.social-link {
+  display: inline-block;
+  margin-left: 20px;
+}
